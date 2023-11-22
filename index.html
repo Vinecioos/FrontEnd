@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__links" href="index.html">Home</a>
+            <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__links" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nivel <Strong class="titulo-destaque">com um Front-end de qualidade!</Strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Vinícius Amâncio, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Vinícius Amâncio, desenvolvedor Front-end com especialidade em HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a class=" apresentacao__links__link" href="https://www.linkedin.com/in/Vinicius-Bueno-">Linkedin</a>
-                <a class=" apresentacao__links__link" href="https://github.com/Vinecioos">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse Minhas redes:</h2>
+                <a class=" apresentacao__links__link" href="https://github.com/Vinecioos"> <img src="./assets/github.png">github</a>
+                <a class=" apresentacao__links__link" href="https://www.linkedin.com/in/vinicius-bueno-/"> <img src="./assets/linkedin.png">linkedin</a>
+                <a class=" apresentacao__links__link" href="https://twitter.com/vinocioos/"> <img src="./assets/twitter.png">twitter</a>
             </div>   
         </section>
-        <img src="fotoPerfil.png" alt="Minha foto de perfil">
+        <img src="./assets/fotoPerfil.png" alt="Minha foto de perfil">
     </main>
-    </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Vinícius Amâncio Bueno Pinto</p>
+    </footer>
 </body>
 </html>
