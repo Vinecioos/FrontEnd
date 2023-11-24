@@ -113,25 +113,25 @@ body{
     font-weight: 400;
 }
 
-.curriculo{
+.apresentacao__curriculo{
     display: flex;
     align-items: center;
     padding: 5% 10% 7%;
 }
-.curriculo__conteudo{
+.apresentacao__conteudo{
     display:flex;
     flex-direction: column;
     gap: 15px;
     padding: 0% 5%;
     text-align: justify;
 }
-.curriculo__conteudo__titulo{
+.apresentacao__conteudo__titulo{
     font-family: var(--fonte-principal);
     font-size: 1.6rem;
     padding: 1%;
    
 }
-.curriculo__conteudo__texto{
+.apresentacao__conteudo__texto{
     font-family: var(--fonte-secundaria);
     font-size: 1rem;
 }
@@ -148,7 +148,7 @@ body{
         padding: 5%;
     }
     .apresentacao__conteudo{
-        width: auto;
+        width: auto ;
     }
     
 }
